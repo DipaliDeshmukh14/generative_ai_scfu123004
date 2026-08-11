@@ -1,0 +1,24 @@
+Set 3 — 0.2B / 3B / 7B
+Gemma-3-270M-it
+Created by: Google DeepMind
+Parameters: ~270M
+Generative: Yes, multimodal decoder-only model
+Context length: 32K
+Local execution: Yes — extremely lightweight, runs on phones/laptops
+Hardware: <1GB RAM/VRAM, CPU-friendly
+--------------------------
+Qwen2.5-3B-Instruct
+Created by: Alibaba Cloud (Qwen Team)
+Parameters: 3B
+Generative: Yes, dense causal decoder-only LLM
+Context length: 128K input / 8K output
+Local execution: Yes — single mid-range GPU
+Hardware: ~6GB VRAM fp16, or 2-3GB quantized (GTX 1660/RTX 3050)
+--------------------------
+Qwen2.5-7B-Instruct
+Created by: Alibaba Cloud (Qwen Team)
+Parameters: ~7.6B
+Generative: Yes, dense causal decoder-only LLM
+Context length: 128K input / 8K output
+Local execution: Yes — single consumer GPU
+Hardware: ~16GB VRAM fp16, or 6-8GB quantized (RTX 3060/4070)
